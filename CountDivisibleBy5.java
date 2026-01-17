@@ -1,0 +1,14 @@
+class CountDivisibleBy5 {
+    public static void main(String[] args) {
+
+        int count = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            if (i % 5 == 0) {
+                count++;
+            }
+        }
+
+        System.out.println("Count of numbers divisible by 5 between 1 and 100 is: " + count);
+    }
+}
